@@ -30,5 +30,18 @@ b=9
 print(a<b)
 print(a>b)
 print(a!=b)
+print(5==5)
+print(a==b)
+print("abcd"=="abcd")
+print("abcd"=="abc")
+print("abcd">="abc") #string is greater in number here
+print(len("abcd")>=len("abc")) #Length of the string is compared
+print(len("abcd")==len("abcd"))
+print("abcd"=="1234") #here it is considering number as string as it is in quotation
+print("abcd"=="123")
+print(5 is 5)
+print(5 is not 10)
+print(5 is 10)
+
 
 #Boolean Operators
